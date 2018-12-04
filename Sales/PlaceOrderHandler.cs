@@ -3,7 +3,7 @@ using Messages;
 using NServiceBus;
 using NServiceBus.Logging;
 
-namespace ClientUI{
+namespace Sales{
     public class PlaceOrderHandler :IHandleMessages<PlaceOrder>
     {
         static ILog log = LogManager.GetLogger<PlaceOrderHandler>();
